@@ -27,6 +27,8 @@ const workerConfig = {
       target: 'https://note.wcoder.com',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: "kingreatwill's profile",
+      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
+      statusPageLink: 'https://note.wcoder.com',
     },   
   ],
   callbacks: {
