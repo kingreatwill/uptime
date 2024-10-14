@@ -26,7 +26,7 @@ const workerConfig = {
       // `target` is a valid URL
       target: 'https://note.wcoder.com',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'kingreatwill's profile',
+      tooltip: "kingreatwill's profile",
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://note.wcoder.com',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
