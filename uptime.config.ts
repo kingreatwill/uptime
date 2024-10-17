@@ -30,6 +30,21 @@ const workerConfig = {
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://note.wcoder.com',
     },   
+    {
+      // `id` should be unique, history will be kept if the `id` remains constant
+      id: 'maltrail_monitor',
+      // `name` is used at status page and callback message
+      name: 'maltrail.wcoder.com Monitor',
+      // `method` should be a valid HTTP Method
+      method: 'GET',
+      // `target` is a valid URL
+      target: 'https://maltrail.wcoder.com',
+      // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
+      tooltip: "maltrail",
+      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
+      statusPageLink: 'https://maltrail.wcoder.com',
+    },  
+    
   ],
   callbacks: {
     onStatusChange: async (
